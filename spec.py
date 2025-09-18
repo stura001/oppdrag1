@@ -10,6 +10,7 @@ def get_system_info():
     print(f"Version: {system_info.version}")
     print(f"Machine: {system_info.machine}")
     print(f"Processor: {system_info.processor}")
+    print(f"Architecture: {system.info.architecture}")
 
 get_system_info()
 #shameless pull from the internet lol
